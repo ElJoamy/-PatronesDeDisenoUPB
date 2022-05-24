@@ -1,32 +1,32 @@
 package factoryMethod.practice.pasaje;
 
 public class PasajeStandart implements IPasaje{
-    private int numeroVuelo;
-    private Lugar destino = new Lugar();
-    private Lugar origen = new Lugar();
+    private int nVuelo;
+    private Lugar d = new Lugar();
+    private Lugar o = new Lugar();
     private Pasajero pasajero = new Pasajero();
     private Avion avion = new Avion();
     private String numeroAsiento;
     private int costoPasaje;
 
-    public PasajeStandart(Lugar destino, Lugar origen, Avion avion, Pasajero pasajero){
-        this.destino = destino;
-        this.origen = origen;
+    public PasajeStandart(Lugar d, Lugar o, Avion avion, Pasajero pasajero){
+        this.d = d;
+        this.o = o;
         this.avion = avion;
         this.pasajero = pasajero;
     }
     @Override
     public void showInfo() {
         System.out.println("-------------------------PASAJE STANDART-------------------------");
-        System.out.println("Numero de Vuelo: "+numeroVuelo);
+        System.out.println("Numero de Vuelo: "+nVuelo);
         System.out.println("Destino: ");
-        System.out.println("   - Pais: "+destino.getPais());
-        System.out.println("   - Ciudad: "+destino.getCiudad());
-        System.out.println("   - Aeropuerto: "+destino.getAeropuerto());
+        System.out.println("   - Pais: "+d.getPais());
+        System.out.println("   - Ciudad: "+d.getCiudad());
+        System.out.println("   - Aeropuerto: "+d.getAeropuerto());
         System.out.println("Origen: ");
-        System.out.println("   - Pais: "+origen.getPais());
-        System.out.println("   - Ciudad: "+origen.getCiudad());
-        System.out.println("   - Aeropuerto: "+origen.getAeropuerto());
+        System.out.println("   - Pais: "+o.getPais());
+        System.out.println("   - Ciudad: "+o.getCiudad());
+        System.out.println("   - Aeropuerto: "+o.getAeropuerto());
         System.out.println("Avion: ");
         System.out.println("   - Marca: "+avion.getMarca());
         System.out.println("   - Capacidad: "+avion.getCapacidad());
@@ -41,27 +41,27 @@ public class PasajeStandart implements IPasaje{
     }
 
     public int getNumeroVuelo() {
-        return numeroVuelo;
+        return nVuelo;
     }
 
-    public void setNumeroVuelo(int numeroVuelo) {
-        this.numeroVuelo = numeroVuelo;
+    public void setNumeroVuelo(int nVuelo) {
+        this.nVuelo = nVuelo;
     }
 
     public Lugar getDestino() {
-        return destino;
+        return d;
     }
 
-    public void setDestino(Lugar destino) {
-        this.destino = destino;
+    public void setDestino(Lugar d) {
+        this.d = d;
     }
 
     public Lugar getOrigen() {
-        return origen;
+        return o;
     }
 
-    public void setOrigen(Lugar origen) {
-        this.origen = origen;
+    public void setOrigen(Lugar o) {
+        this.o = o;
     }
 
     public Pasajero getPasajero() {
