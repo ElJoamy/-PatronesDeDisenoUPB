@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
         "practice/P2/mediator"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
