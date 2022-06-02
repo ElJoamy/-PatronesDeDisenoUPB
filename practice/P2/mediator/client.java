@@ -23,15 +23,7 @@ public class client {
         DEV dev3 = new DEV(skype);
         dev3.setCargo("DEV").setCi("12345612").setName("Maria Ordonez").setLenguaje("c++");
 
-        skype.addProfesionalChat(qa1, "QA")
-        .addProfesionalChat(qa2, "QA")
-        .addProfesionalChat(qa3, "QA")
-        .addProfesionalChat(sm1, "SM")
-        .addProfesionalChat(sm2, "SM")
-        .addProfesionalChat(sm3, "SM")
-        .addProfesionalChat(dev1, "DEV")
-        .addProfesionalChat(dev2, "DEV")
-        .addProfesionalChat(dev3, "DEV");
+        skype.addProfesionalChat(qa1, "QA").addProfesionalChat(qa2, "QA").addProfesionalChat(qa3, "QA").addProfesionalChat(sm1, "SM").addProfesionalChat(sm2, "SM").addProfesionalChat(sm3, "SM").addProfesionalChat(dev1, "DEV").addProfesionalChat(dev2, "DEV").addProfesionalChat(dev3, "DEV");
 
         qa1.send("QA");
         sm2.send("Para todos");
