@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/P2/mediator"
+        "practice/memento"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
