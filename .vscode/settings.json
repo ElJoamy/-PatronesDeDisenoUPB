@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/memento"
+        "practice/P2/command"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
