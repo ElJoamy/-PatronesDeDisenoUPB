@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/P2/command"
+        "practice/P2/observer"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
