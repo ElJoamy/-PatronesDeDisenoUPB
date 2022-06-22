@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/P3/Adapter"
+        "practice/P3/Proxy"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
