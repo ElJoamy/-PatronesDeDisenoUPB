@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/P3/Bridge"
+        "practice/P3/Composite"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
