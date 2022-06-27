@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "practice/P3/Decorator"
+        "proyectoDeAntipatron/Solucion/SinIB",
+        "proyectoDeAntipatron/Solucion/ConIB"
     ],
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
