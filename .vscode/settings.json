@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "practice/P3/Composite"
+        "practice/P3/Decorator"
     ],
     "java.configuration.updateBuildConfiguration": "interactive"
 }
