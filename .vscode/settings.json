@@ -1,7 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "proyectoDeAntipatron/Solucion/SinIB",
-        "proyectoDeAntipatron/Solucion/ConIB"
+        "Practica3/Ejer4"
     ],
     "java.configuration.updateBuildConfiguration": "interactive",
     "C_Cpp.errorSquiggles": "Disabled"
